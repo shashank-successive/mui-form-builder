@@ -1,3 +1,11 @@
+src
+public
+index.html
+tsconfig.app.json
+tsconfig.node.json
+tsconfig.json
+vite.config.ts
+tsup.config.ts
 .env
 
 # Logs
@@ -10,8 +18,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
-dist-ssr
+
 *.local
 
 # Editor directories and files

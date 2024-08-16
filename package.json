@@ -1,13 +1,16 @@
 {
-  "name": "mui-form-builder",
+  "name": "@shashank-successive/mui-form-builder",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "bundle": "tsup src/index.ts"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -22,8 +25,19 @@
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
+    "tsup": "^8.2.4",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"
-  }
+  },
+  "author": "Shashank Shekhar <shashank.gaur@successive.tech>",
+  "license": "MIT",
+  "keywords": [
+    "MUI",
+    "form builder",
+    "dynamic form builder",
+    "react",
+    "typescript"
+  ],
+  "packageManager": "pnpm@9.7.1"
 }
